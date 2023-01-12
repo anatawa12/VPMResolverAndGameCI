@@ -20,34 +20,3 @@ jobs:
         with:
           githubToken: ${{ github.token }}
           testMode: all
-      - uses: game-ci/unity-test-runner@v2
-        if: failure()
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          githubToken: ${{ github.token }}
-          testMode: all
-
-      - uses: game-ci/unity-test-runner@v2
-        if: failure()
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          githubToken: ${{ github.token }}
-          testMode: all
-
-      - uses: game-ci/unity-test-runner@v2
-        if: failure()
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          githubToken: ${{ github.token }}
-          testMode: all
-
-      - uses: game-ci/unity-test-runner@v2
-        if: failure()
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          githubToken: ${{ github.token }}
-          testMode: all
