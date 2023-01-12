@@ -31,7 +31,7 @@
 // 
 // For more information, please refer to <https://unlicense.org>
 
-#if UNITY_EDITOR && false // temporary disable
+#if UNITY_EDITOR
 
 using System;
 using System.IO;
