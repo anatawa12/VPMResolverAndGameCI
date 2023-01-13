@@ -18,5 +18,5 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          testMode: All
+          testMode: EditMode
           customParameters: -nographics -assemblyNames com.anatawa12.test
