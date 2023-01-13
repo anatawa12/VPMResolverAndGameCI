@@ -21,4 +21,4 @@ jobs:
         with:
           githubToken: ${{ github.token }}
           testMode: EditMode
-          customParameters: -nographics
+          customParameters: -nographics -assemblyNames com.anatawa12.test
