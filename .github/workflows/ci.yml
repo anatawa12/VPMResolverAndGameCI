@@ -21,3 +21,4 @@ jobs:
         with:
           githubToken: ${{ github.token }}
           testMode: EditMode
+          customParameters: -nographics
