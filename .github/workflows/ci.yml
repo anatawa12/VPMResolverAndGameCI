@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: anatawa12/sh-actions/resolve-vpm-packages@master
       - uses: actions/cache@v2
         with:
           path: Library
